@@ -1,0 +1,223 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(51, 46, 40);
+    color: whitesmoke;
+}
+#logo{
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 35px;
+    margin-left: 10rem;
+    
+}
+.nav{
+    display: flex;
+    position: absolute;
+    top: 55px;
+    right: 25rem;
+    width: 200px;
+    text-decoration: none;
+}
+.nav a{
+    margin-left: 30px;
+}
+
+
+#myInfo{
+    width: 300px;
+    margin-left: 10rem;
+    
+}
+#hi{
+    top: 80px;
+}
+.myName{
+    font-size: 80px;
+    margin-left: 10rem;
+}
+#photo{
+    
+    float: right;
+    margin-right: 18rem;
+    margin-top: 25px;
+    width: 350px;
+    border-radius: 30px;
+   
+    
+}
+
+/*
+a{
+    text-decoration: none;
+    color: white;
+}
+*/
+
+#h-2, #h-3{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.navBar{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+
+
+
+.service{
+    display: flex;
+
+}
+
+
+#contact{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(85, 90, 75);
+    border-radius: 15px;
+
+}
+.footer{
+    
+    padding: 10px;
+    color: whitesmoke;
+}
+
+
+
+
+.me{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+#me2{
+    width: 21.2rem;
+    align-items: center;
+}
+
+#image{
+    width: 200px;
+    border-radius: 20px;
+}
+.service{
+    justify-content: space-evenly;
+}
+#s1{
+    margin-top: 6rem;
+    width: 25rem;
+}
+#s2{
+    display: flex;
+    flex-direction: column;
+
+}
+.s-2{
+    width: 25rem;
+}
+
+#p1{
+    margin-left: 5rem;
+}
+
+
+
+#f1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#Name, #email{
+    width: 15rem !important;
+    height: 40px;
+    
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    padding: 3px;
+    margin: 2px;
+    background-color: rgb(85, 90, 75);
+    color: whitesmoke;
+    border-color: rgb(59, 59, 122);
+}
+#message{
+    width: 15rem;
+    height: 50px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    padding: 3px;
+    background-color: rgb(85, 90, 75);
+    
+    color: whitesmoke;
+
+}
+
+#submit{
+    align-items: center;
+    border-radius: 30px;
+    background-color: blueviolet;
+    width: 100px;
+    color: whitesmoke;
+}
+#hello{
+    background-color: rgb(85, 90, 75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 20px 0px;
+    border-radius: 15px;
+}
+
+#me1{
+    font-size: 60px;
+}
+
+
+
+#portfolio{
+    background-color: rgb(85, 90, 75);
+    border-radius: 15px;
+
+}
+
+
+
+.myArt{
+    display: flex;
+    justify-content: center;
+}
+.newArt{
+    
+    width: 200px;
+    margin: 15px;
+    border-radius: 20px;
+    /* flex-direction: row; */
+    
+    
+}
+
+#myDesign{
+    display: flex;
+    justify-content: center;
+}
+
+.newDesign{
+    width: 200px;
+    margin: 15px;
+    border-radius: 10px;
+    
+}
+
+.socialMedia{
+    text-decoration: none;
+    color: whitesmoke;
+}
