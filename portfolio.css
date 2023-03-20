@@ -1,9 +1,15 @@
-*{
-    font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+
+
+p{
+    font-size: 18px;
+    
 }
 body{
     background-color: rgb(51, 46, 40);
     color: whitesmoke;
+    
 }
 #logo{
     width: 100px;
@@ -16,10 +22,15 @@ body{
     display: flex;
     position: absolute;
     top: 55px;
-    right: 25rem;
+    right: 27rem;
     width: 200px;
     text-decoration: none;
+    font-size: 18px;
 }
+h1, h2, h3{
+    font-family: 'Aclonica', sans-serif;
+}
+
 .nav a{
     margin-left: 30px;
 }
@@ -28,6 +39,7 @@ body{
 #myInfo{
     width: 300px;
     margin-left: 10rem;
+    font-family: serif;
     
 }
 #hi{
@@ -40,7 +52,7 @@ body{
 #photo{
     
     float: right;
-    margin-right: 18rem;
+    margin-right: 11rem;
     margin-top: 25px;
     width: 350px;
     border-radius: 30px;
@@ -48,12 +60,11 @@ body{
     
 }
 
-/*
-a{
-    text-decoration: none;
-    color: white;
+#aboutMe{
+    padding: 10px;
+    margin: 20px;
 }
-*/
+
 
 #h-2, #h-3{
     display: flex;
@@ -71,13 +82,15 @@ a{
 
 .service{
     display: flex;
+    justify-content: space-around;
+    padding: 10px;
 
 }
 
 
 #contact{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
@@ -89,6 +102,7 @@ a{
     
     padding: 10px;
     color: whitesmoke;
+    font-size: 16px;
 }
 
 
@@ -97,7 +111,6 @@ a{
 .me{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 50px;
 }
 #me2{
     width: 21.2rem;
@@ -138,16 +151,17 @@ a{
 
 #Name, #email{
     width: 15rem !important;
-    height: 40px;
+    height: 20px;
     
     border-top: 1px;
     border-left: 1px;
     border-right: 1px;
     padding: 3px;
+    border-radius: 5px;
     margin: 2px;
     background-color: rgb(85, 90, 75);
     color: whitesmoke;
-    border-color: rgb(59, 59, 122);
+    border-color: rgb(151, 151, 201);
 }
 #message{
     width: 15rem;
@@ -157,17 +171,22 @@ a{
     border-right: 1px;
     padding: 3px;
     background-color: rgb(85, 90, 75);
-    
+    border-radius: 5px;
     color: whitesmoke;
+    border-color: rgb(151, 151, 201);
 
 }
 
 #submit{
+    font-size: 20px;
     align-items: center;
     border-radius: 30px;
     background-color: blueviolet;
     width: 100px;
     color: whitesmoke;
+    margin: 10px;
+    margin-left: 7rem;
+    border: none;
 }
 #hello{
     background-color: rgb(85, 90, 75);
@@ -179,6 +198,7 @@ a{
 
 #me1{
     font-size: 60px;
+    margin: 2opx;
 }
 
 
@@ -200,9 +220,6 @@ a{
     width: 200px;
     margin: 15px;
     border-radius: 20px;
-    /* flex-direction: row; */
-    
-    
 }
 
 #myDesign{
@@ -221,3 +238,11 @@ a{
     text-decoration: none;
     color: whitesmoke;
 }
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
+
+
