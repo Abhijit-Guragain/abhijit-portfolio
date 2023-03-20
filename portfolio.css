@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Alegreya+Sans&display=swap');
 
 
 p{
     font-size: 18px;
+    font-family: 'Alegreya Sans', sans-serif;
     
 }
 body{
@@ -39,7 +39,7 @@ h1, h2, h3{
 #myInfo{
     width: 300px;
     margin-left: 10rem;
-    font-family: serif;
+    
     
 }
 #hi{
